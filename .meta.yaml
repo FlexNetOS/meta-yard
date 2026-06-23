@@ -1,0 +1,12 @@
+projects:
+  # The Yard — Tier Y per META-ORG-POLICY.md P8.y.
+  # Ported-from / reference / not-adopted-as-is source. These are genuine FlexNetOS
+  # repos kept for provenance and reference; they are NEVER wired into the meta root
+  # build/CI/workspace. Promotion out of the yard (to adopt, or to adopt crates via
+  # P8.a) is an explicit re-tier with its own PR.
+  Archon:
+    repo: git@github.com:FlexNetOS/Archon.git
+    tags: [yard, ai, forked, ported-from]   # ported → harness-agent-rs (Rust)
+  MiroFish:
+    repo: git@github.com:FlexNetOS/MiroFish.git
+    tags: [yard, ai, forked, ported-from]

@@ -1,0 +1,6 @@
+# Yard members are independent git repos (cloned via `meta git update`), never embedded.
+Archon/
+MiroFish/
+
+# OS / editor noise
+.DS_Store
